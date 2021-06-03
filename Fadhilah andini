@@ -1,0 +1,31 @@
+/ *
+ * @ penulis  Fadhilah Andini CR
+ * Program ini dapat mengubah dan berbagi
+ * /
+
+ kelas  umum Balok  memanjang  PersegiPanjang  // konsep pewarisan jawa
+{
+	 tinggi int pribadi ;
+	
+	public  void  setTinggi ( int  tinggi )
+	{
+		ini . tinggi = tinggi; // memberikan nilai variabel tinggi dengan nilai yang ada di dalam parameter
+	}
+	
+	public  int  getTinggi ()
+	{
+		kembali tinggi; // memberikan nilai kembalian
+	}
+	
+	public  int  getVoume ()
+	{
+		return getPanjang () * getLebar () * getTinggi ();  // Menghitung Volume dengan mengambil nilai dari masing-masing metode
+	}
+	
+	public  int  getLuasPemukaan ()
+	{
+		return  2  * (getPanjang () * getLebar () + getPanjang () * getTinggi () + getLebar () * getTinggi ()); // Menghitung Luas Pemukaan dengan mengambil nilai dari masing-masing metode
+
+}
+  
+    }
